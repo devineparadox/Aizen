@@ -1,0 +1,72 @@
+{
+  "name": "Devine",
+  "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "music",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from BotFather on Telegram.",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URL": {
+      "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "The Telegram user ID of the bot's owner.",
+      "value": "",
+      "required": true
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Add the Telegram support channel link.",
+      "value": "https://t.me/devine_support",
+      "required": true
+    },
+    "SUPPORT_CHAT": {
+      "description": "Add the support group link.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "A Pyrogram String Session.",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Your Log Group ID.",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "stack": "container"
+}
