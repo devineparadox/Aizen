@@ -16,11 +16,3 @@ You can deploy Devine Music Bot on **Heroku**, **Railway**, **VPS**, or **Locall
 Click the button below to deploy on Heroku:  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/devineparadox/Aizen)  
-
-### 📌 **Manual Deployment (VPS/Locally)**  
-Make sure you have **Python 3.10+** installed.  
-
-#### 1️⃣ Clone the repository  
-```sh
-git clone https://github.com/your-username/Devine-MusicBot.git  
-cd Devine-MusicBot
